@@ -16,7 +16,8 @@ export default function HomeScreen() {
       <Button title="Profile Screen" onPress={() => router.push("/profile")}/>
       <Button title="Contact Screen" onPress={() => router.push("/contact")}/> 
       <Button title="Activity logs" onPress={() => router.push("/activity-logs")}/>
-      <Button title="Activity details" onPress={() => router.push("/activity-details")}/>   
+      <Button title="Activity details" onPress={() => router.push("/activity-details")}/>
+      <Button title="Go to Tabs" onPress={() => router.push("/(tabs)")}/>   
     </ThemedView>
   );
 }
